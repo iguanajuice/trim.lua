@@ -396,8 +396,7 @@ function writeOut()
         "-i", tostring(sourcePath),
         "-t", tostring(trimDuration),
 
-        "-map", "v:0?",
-        "-map", "a:0?",
+        "-map", "v:0",
         "-c", "copy",
 
         strip_metadata ..
